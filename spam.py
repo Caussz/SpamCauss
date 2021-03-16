@@ -146,7 +146,7 @@ def files():
 		print(m+f'\tFile {fil} doesn`t exist')
 name  = input('Digite seu nome: ')
 password = input('Digite a senha: ')
-senha = caussandlost
+senha = SpamCauss
 print(name)
 if name == name:
 	print(password)
