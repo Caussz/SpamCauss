@@ -1,11 +1,10 @@
 #!/usr/bin/python
 import requests,random,json,time,sys,os,re
 # -----------------------------------------------------------
-# Tidak ada author Untuk Sc ini kecuali ./Kitsune yg Telah Mendesign Dengan Sempurna
-# Update 26 january 2020 21:57
+# Ferramenta feita por Causs e LostzX
+# Atualizado em 16/03/21 ás 16h30
 # Recode!, dosa Tanggung Sendiri
-# Thanks For MyFriends, FourX, MhankBarBar, Maulana, Rexy
-# Underground Science And Termux Tutorial Group
+# Agradecimentos á FourX, MhankBarBar, Maulana, Rexy que desenvolveram grande parte do projeto
 # ---------------------------------------------------------------
 
 # -----------------------WARNA----------------------------
@@ -19,8 +18,6 @@ bm = '\x1b[96m'
 bgm = '\x1b[41m'
 bgp = '\x1b[47m'
 res = '\x1b[40m'
-# -------------------------------------------------------
-# Sebuah Program Python Yg Menggunakan Program Berorientasi Object
 #------------------------Classes------------------------
 class spam:
 		
@@ -105,8 +102,6 @@ class spam:
 		else:
 			return f'\x1b[92mSpamm TokoTalk {self.nomer} {m}Fail!'
 # ------------------------------------------------------------
-
-# ---------------------------Fungsi----------------------------
 def apakah():
 	while True:
 		lan=str(input(k+'\tWant more? y/n : '+h))
@@ -149,6 +144,16 @@ def files():
 		apakah()
 	else:
 		print(m+f'\tFile {fil} doesn`t exist')
+name  = input('Digite seu nome: ')
+password = input('Digite a senha: ')
+senha = caussandlost
+print(name)
+if nome == name:
+	print(password)
+	if senha == senha:
+		print('Senha correta!')
+	else:
+		print('Senha incorreta!')
 def single():
 	nomer=str(input(k+'\tPhone number : '+h))
 	jm=int(input(k+'\tTotal spam : '+h))
@@ -206,7 +211,7 @@ def multi():
 				print()
 		time.sleep(dly)
 	apakah()
-#-------------------------Fungsi Banner-----------------------
+#-------------------------Banner-----------------------
 def logo():
 	os.system('clear')
 	auth=m+'  Criador: '+k+'./Causs'
