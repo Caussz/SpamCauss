@@ -148,6 +148,8 @@ name  = input('Digite seu nome: ')
 password = input('Digite a senha: ')
 senha = caussandlost
 print(name)
+if name == name:
+	print(password)
 if password == senha:
 	print('Senha correta!')
 else:
