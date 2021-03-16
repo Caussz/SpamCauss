@@ -148,12 +148,10 @@ name  = input('Digite seu nome: ')
 password = input('Digite a senha: ')
 senha = caussandlost
 print(name)
-if nome == name:
-	print(password)
-	if senha == senha:
-		print('Senha correta!')
-	else:
-		print('Senha incorreta!')
+if password == senha:
+	print('Senha correta!')
+else:
+	print('Senha incorreta!')
 def single():
 	nomer=str(input(k+'\tPhone number : '+h))
 	jm=int(input(k+'\tTotal spam : '+h))
