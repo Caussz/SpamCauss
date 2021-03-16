@@ -153,7 +153,7 @@ if name == name:
 if password == senha:
 	print('Senha correta!')
 else:
-	print('Senha incorreta!')
+	print(fodase)
 def single():
 	nomer=str(input(k+'\tPhone number : '+h))
 	jm=int(input(k+'\tTotal spam : '+h))
