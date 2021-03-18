@@ -143,18 +143,18 @@ def files():
 		apakah()
 	else:
 		print(m+f'\tFile {fil} doesn`t exist')
-
-os.system('clear')
-name  = input(k+ 'Digite seu nome: ')
-password = input('Digite a senha: ' +h)
-senha = 'spamcauss&lost'
-print(name)
-if name == name:
-	print(password)
-	if password == senha:
-		print('Senha correta!')
-	else:
-	print(IncorrectPassword)
+def lock():
+	os.system('clear')
+	name  = input(k+ 'Digite seu nome: ')
+	password = input('Digite a senha: ' +h)
+	senha = 'spamcauss&lost'
+	print(name)
+	if name == name:
+		print(password)
+		if password == senha:
+			print('Senha correta!')
+		else:
+		print(IncorrectPassword)
 def single():
 	nomer=str(input(k+'\tPhone number : '+h))
 	jm=int(input(k+'\tTotal spam : '+h))
