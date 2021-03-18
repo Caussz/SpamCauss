@@ -3,7 +3,6 @@ import requests,random,json,time,sys,os,re
 # -----------------------------------------------------------
 # Ferramenta feita por Causs e LostzX
 # Atualizado em 16/03/21 ás 16h30
-# Recode!, dosa Tanggung Sendiri
 # Agradecimentos á FourX, MhankBarBar, Maulana, Rexy que desenvolveram grande parte do projeto
 # ---------------------------------------------------------------
 
@@ -144,16 +143,20 @@ def files():
 		apakah()
 	else:
 		print(m+f'\tFile {fil} doesn`t exist')
-name  = input('Digite seu nome: ')
-password = input('Digite a senha: ')
-senha = 'spamcauss&lost'
-print(name)
-if name == name:
-	print(password)
-if password == senha:
-	print('Senha correta!')
-else:
-	print(fodase)
+def lock()
+	os.system('clear')
+	GREEN="\033[1;32m"
+	RESET = "\033[0;0m"
+	name  = input(GREEN + 'Digite seu nome: ')
+	password = input('Digite a senha: ' + RESET)
+	senha = 'spamcauss&lost'
+	print(name)
+	if name == name:
+		print(password)
+	if password == senha:
+		print('Senha correta!')
+	else:
+	print(IncorrectPassword)
 def single():
 	nomer=str(input(k+'\tPhone number : '+h))
 	jm=int(input(k+'\tTotal spam : '+h))
@@ -214,7 +217,7 @@ def multi():
 #-------------------------Banner-----------------------
 def logo():
 	os.system('clear')
-	auth=m+'  Criador: '+k+'./Causs£\nUse a ferramenta com moderação {}'.format(name)
+	auth=m+'  Developed by '+k+'./Causs and lost\nUse a ferramenta com moderação {}'.format(name)
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
 %s╭━┳━╭━╭━╮%s╮╲╲╲╲╲╲%s╔═╗╔═╗╔═╗╔╦╗
