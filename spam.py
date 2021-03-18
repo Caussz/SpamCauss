@@ -143,8 +143,8 @@ def files():
 		apakah()
 	else:
 		print(m+f'\tFile {fil} doesn`t exist')
-def lock()
-	os.system('clear')
+
+os.system('clear')
 	GREEN="\033[1;32m"
 	RESET = "\033[0;0m"
 	name  = input(GREEN + 'Digite seu nome: ')
