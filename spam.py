@@ -145,12 +145,12 @@ def files():
 		print(m+f'\tFile {fil} doesn`t exist')
 
 os.system('clear')
-	name  = input(k+ 'Digite seu nome: ')
-	password = input('Digite a senha: ' +h)
-	senha = 'spamcauss&lost'
-	print(name)
-	if name == name:
-		print(password)
+name  = input(k+ 'Digite seu nome: ')
+password = input('Digite a senha: ' +h)
+senha = 'spamcauss&lost'
+print(name)
+if name == name:
+	print(password)
 	if password == senha:
 		print('Senha correta!')
 	else:
