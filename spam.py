@@ -145,10 +145,8 @@ def files():
 		print(m+f'\tFile {fil} doesn`t exist')
 
 os.system('clear')
-	GREEN="\033[1;32m"
-	RESET = "\033[0;0m"
-	name  = input(GREEN + 'Digite seu nome: ')
-	password = input('Digite a senha: ' + RESET)
+	name  = input(k+ 'Digite seu nome: ')
+	password = input('Digite a senha: ' +h)
 	senha = 'spamcauss&lost'
 	print(name)
 	if name == name:
