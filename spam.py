@@ -154,7 +154,7 @@ def lock():
 		if password == senha:
 			print('Senha correta!')
 		else:
-		print(IncorrectPassword)
+			print(IncorrectPassword)
 def single():
 	nomer=str(input(k+'\tPhone number : '+h))
 	jm=int(input(k+'\tTotal spam : '+h))
