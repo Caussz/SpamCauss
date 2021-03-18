@@ -145,7 +145,7 @@ def files():
 		print(m+f'\tFile {fil} doesn`t exist')
 def lock():
 	os.system('clear')
-	name  = input(k+ 'Digite seu nome: ')
+	name = input(k+ 'Digite seu nome: ')
 	password = input('Digite a senha: ' +h)
 	senha = 'spamcauss&lost'
 	print(name)
